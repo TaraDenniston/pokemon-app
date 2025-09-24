@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
+import Pokedex from './pages/Pokedex'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
 
@@ -14,7 +14,7 @@ export default function App() {
 
       <main className="main">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Pokedex />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
