@@ -8,9 +8,8 @@ export default function Pokedex(props) {
       <h2>Pokedex</h2>
       <div>
         {pokemon.map(p => (
-          <Pokecard key={p.id} id={p.id} name={p.name}/>
+          <Pokecard key={p.id} id={p.id} name={p.name} type={p.type} base_experience={p.base_experience}/>
         ))}
-
       </div>
     </div>
   )
