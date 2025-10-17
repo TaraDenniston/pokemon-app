@@ -1,0 +1,18 @@
+.Pokedex-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.Pokedex-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(175, 175, 175);
+}
+
+.Pokedex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
