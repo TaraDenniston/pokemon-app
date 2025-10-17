@@ -1,0 +1,19 @@
+.Pokecard {
+  border-radius: 15px;
+  padding: 0.5rem;
+  text-align: center;
+  width: 190px;
+  background-color: rgb(210, 209, 209);
+}
+
+.Pokecard-name {
+  font-size: 1.2rem;
+  color: blue;
+  margin-bottom: 0.5rem;
+}
+
+.Pokecard-stats {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+}
